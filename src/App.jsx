@@ -679,6 +679,7 @@ function reducerFunction(state,action){
   }
 }
 function Reducerhook(){
+   let name='keerthi';
   const [count,dispatch] = useReducer(reducerFunction ,0);
   return (
     <>
@@ -689,6 +690,7 @@ function Reducerhook(){
     </>
   )
 }
+
 
 function Home(){
   return <h1>Home page</h1>
