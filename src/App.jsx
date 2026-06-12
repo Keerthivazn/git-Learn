@@ -679,7 +679,7 @@ function reducerFunction(state,action){
   }
 }
 function Reducerhook(){
-   let name='keerthi';
+   let name='keerthi2';
   const [count,dispatch] = useReducer(reducerFunction ,0);
   return (
     <>
